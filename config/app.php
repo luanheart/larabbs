@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'zh-CN',
 
     /*
     |--------------------------------------------------------------------------
@@ -178,6 +178,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Illuminate\Translation\TranslationServiceProvider::class,
 
     ],
 
